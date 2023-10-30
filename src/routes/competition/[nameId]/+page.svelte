@@ -26,7 +26,7 @@
 	<h1 class="text-7xl text-purple-500">
 		{data.name}
 	</h1>
-	<div class="badge badge-primary">https://natjecanje.google.com/{data.docRef}</div>
+	<div class="badge badge-primary">https://web2natjecanja.vercel.app/{data.docRef}</div>
 
 	<h2 class="text-3xl text-left mx-5">Ukupni bodovi</h2>
 	<PointsTable docRef={data.docRef} />
